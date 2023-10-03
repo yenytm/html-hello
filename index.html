@@ -16,7 +16,7 @@
     <div class="container-fluid">
       <!-- <div class="col-md-12"> -->
       <div class="igHeader">
-        <nav class="navbar bg-body-tertiary mb-4">
+        <nav class="navbar bg-body-tertiary mb-4 ">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
               <svg
@@ -30,28 +30,23 @@
               </svg>
               Instagram
             </a>
-            <div class="d-flex gap-1">
-              <div class="btn-group float-end">
-                <button
-                  type="button"
-                  class="btn btn-secondary dropdown-toggle"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  ⚙️
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Profile</a></li>
-                  <li><a class="dropdown-item" href="#">Accesibility</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Privacy and Data</a>
-                  </li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li><a class="dropdown-item" href="#">Logout</a></li>
-                </ul>
-              </div>
+            <div class="btn-group">
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
+                  <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"/>
+                  <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"/>
+                </svg>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><button class="dropdown-item" type="button">Profile</button></li>
+                <li><button class="dropdown-item" type="button">Accessibility</button></li>
+                <li><button class="dropdown-item" type="button">Privacy and Data</button></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item text-danger-emphasis"  href="#">Logout</a></li>
+
+              </ul>
             </div>
-          </div>
+
         </nav>
       </div>
     </div>
@@ -147,33 +142,252 @@
             </div>
           </div>
         </div>
-        
-        <div class="row ">
-          <div class="col-4 ">
-            <img src="https://travel.home.sndimg.com/content/dam/images/travel/fullset/2012/07/29/1d/yosemite_ss_001.rend.hgtvcom.1280.960.suffix/1491582679260.jpeg" alt="">
+        <div>
+        <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid-3x3-gap" viewBox="0 0 16 16">
+                <path d="M4 2v2H2V2h2zm1 12v-2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V7a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm5 10v-2a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V2a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zM9 2v2H7V2h2zm5 0v2h-2V2h2zM4 7v2H2V7h2zm5 0v2H7V7h2zm5 0h-2v2h2V7zM4 12v2H2v-2h2zm5 0v2H7v-2h2zm5 0v2h-2v-2h2zM12 1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zm-1 6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zm1 4a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-2z"/>
+              </svg>
+
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-app" viewBox="0 0 16 16">
+                <path d="M11 2a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h6zM5 1a4 4 0 0 0-4 4v6a4 4 0 0 0 4 4h6a4 4 0 0 0 4-4V5a4 4 0 0 0-4-4H5z"/>
+              </svg>
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+            <div class="igPics" >
+              <div class="container">
+                <div class="row col-12 d-flex g-1 pb-1">
+                    
+                      <img class="col-4" src="https://images.saymedia-content.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:eco%2Cw_1200/MTk2NzY3MjA5ODc0MjY5ODI2/top-10-cutest-cat-photos-of-all-time.jpg" class="object-fit-cover border rounded" alt="...">
+                      <img class="col-4" src="https://i0.wp.com/katzenworld.co.uk/wp-content/uploads/2019/06/funny-cat.jpeg?fit=1920%2C1920&ssl=1" class="object-fit-cover border rounded" alt="...">
+                      <img class="col-4" src="https://static01.nyt.com/images/2021/09/14/science/07CAT-STRIPES/07CAT-STRIPES-mediumSquareAt3X-v2.jpg" class="object-fit-cover border rounded" alt="...">
+                  </div>
+              </div>
+                
+              <div class="container">
+                <div class="row col-12 d-flex g-1 pb-1">
+                    
+                      <img class="col-4" src="https://media.istockphoto.com/id/1361394182/photo/funny-british-shorthair-cat-portrait-looking-shocked-or-surprised.jpg?s=612x612&w=0&k=20&c=6yvVxdufrNvkmc50nCLCd8OFGhoJd6vPTNotl90L-vo=" class="object-fit-cover border rounded" alt="...">
+                      <img class="col-4" src="https://img.freepik.com/premium-photo/kitten-peeking-around-corner-generative-ai-generative-ai_170984-7090.jpg" class="object-fit-cover border rounded" alt="...">
+                      <img class="col-4" src="https://img.freepik.com/premium-photo/young-crazy-surprised-cat-with-big-eyes-yellow-background_917664-15605.jpg?w=2000" class="object-fit-cover border rounded" alt="...">
+                  </div>
+              </div>
+              <div class="container">
+                <div class="row col-12 d-flex g-1">
+                      <img class="col-4" src="https://hips.hearstapps.com/hmg-prod/images/beautiful-smooth-haired-red-cat-lies-on-the-sofa-royalty-free-image-1678488026.jpg?crop=0.668xw:1.00xh;0.119xw,0&resize=1200:*" class="object-fit-cover border rounded" alt="...">
+                      <img class="col-4" src="https://media.istockphoto.com/id/185304274/photo/kitten.webp?b=1&s=170667a&w=0&k=20&c=qR1683VktVqhf8XH_pFNriorQ1a33MshX293b9AjcPI=" class="object-fit-cover border rounded" alt="...">
+                      <img class="col-4" src="https://static.wixstatic.com/media/103d43_9ecc1086f64147b9afe8a9c3333b1a1a~mv2.jpg/v1/fill/w_640,h_620,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/103d43_9ecc1086f64147b9afe8a9c3333b1a1a~mv2.jpg" class="object-fit-cover border rounded" alt="...">
+                  </div>
+            </div>
+              </div>
+      
+          </div>
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+            <div class="card1 mb-5">
+              <img  src="https://images.saymedia-content.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:eco%2Cw_1200/MTk2NzY3MjA5ODc0MjY5ODI2/top-10-cutest-cat-photos-of-all-time.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="pb-1 mb-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat" viewBox="0 0 16 16">
+                    <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
+                  </svg>
+                  <div class="bodyIconsRight float-end">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                      <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                    </svg>
+                  </div>
+                </div>
+
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie, erat ac efficitur blandit, nibh risus cursus ante, vel consequat augue orci et est. Morbi consectetur urna a consectetur porttitor. Donec dignissim sapien sit amet ex imperdiet, at consequat nibh malesuada. Nullam accumsan. </p>
+              </div>
+            </div>
+            <div class="card2 mb-5">
+              <img  src="https://i0.wp.com/katzenworld.co.uk/wp-content/uploads/2019/06/funny-cat.jpeg?fit=1920%2C1920&ssl=1" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="pb-1 mb-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat" viewBox="0 0 16 16">
+                    <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
+                  </svg>
+                  <div class="bodyIconsRight float-end">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                      <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                    </svg>
+                  </div>
+                </div>
+
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie, erat ac efficitur blandit, nibh risus cursus ante, vel consequat augue orci et est. Morbi consectetur urna a consectetur porttitor. Donec dignissim sapien sit amet ex imperdiet, at consequat nibh malesuada. Nullam accumsan. </p>
+              </div>
+            </div>
+            <div class="card3 mb-5">
+              <img  src="https://static01.nyt.com/images/2021/09/14/science/07CAT-STRIPES/07CAT-STRIPES-mediumSquareAt3X-v2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="pb-1 mb-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat" viewBox="0 0 16 16">
+                    <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
+                  </svg>
+                  <div class="bodyIconsRight float-end">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                      <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                    </svg>
+                  </div>
+                </div>
+
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie, erat ac efficitur blandit, nibh risus cursus ante, vel consequat augue orci et est. Morbi consectetur urna a consectetur porttitor. Donec dignissim sapien sit amet ex imperdiet, at consequat nibh malesuada. Nullam accumsan. </p>
+              </div>
+            </div>
+            <div class="card4 mb-5">
+              <img src="https://media.istockphoto.com/id/1361394182/photo/funny-british-shorthair-cat-portrait-looking-shocked-or-surprised.jpg?s=612x612&w=0&k=20&c=6yvVxdufrNvkmc50nCLCd8OFGhoJd6vPTNotl90L-vo=" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="pb-1 mb-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat" viewBox="0 0 16 16">
+                    <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
+                  </svg>
+                  <div class="bodyIconsRight float-end">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                      <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                    </svg>
+                  </div>
+                </div>
+
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie, erat ac efficitur blandit, nibh risus cursus ante, vel consequat augue orci et est. Morbi consectetur urna a consectetur porttitor. Donec dignissim sapien sit amet ex imperdiet, at consequat nibh malesuada. Nullam accumsan. </p>
+              </div>
+            </div>
+            <div class="card5 mb-5">
+              <img  src="https://img.freepik.com/premium-photo/kitten-peeking-around-corner-generative-ai-generative-ai_170984-7090.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="pb-1 mb-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat" viewBox="0 0 16 16">
+                    <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
+                  </svg>
+                  <div class="bodyIconsRight float-end">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                      <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                    </svg>
+                  </div>
+                </div>
+
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie, erat ac efficitur blandit, nibh risus cursus ante, vel consequat augue orci et est. Morbi consectetur urna a consectetur porttitor. Donec dignissim sapien sit amet ex imperdiet, at consequat nibh malesuada. Nullam accumsan. </p>
+              </div>
+            </div>
+            <div class="card6 mb-5">
+              <img  src="https://img.freepik.com/premium-photo/young-crazy-surprised-cat-with-big-eyes-yellow-background_917664-15605.jpg?w=2000" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="pb-1 mb-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat" viewBox="0 0 16 16">
+                    <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
+                  </svg>
+                  <div class="bodyIconsRight float-end">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                      <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                    </svg>
+                  </div>
+                </div>
+
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie, erat ac efficitur blandit, nibh risus cursus ante, vel consequat augue orci et est. Morbi consectetur urna a consectetur porttitor. Donec dignissim sapien sit amet ex imperdiet, at consequat nibh malesuada. Nullam accumsan. </p>
+              </div>
+            </div>
+            <div class="card7 mb-5">
+              <img  src="https://hips.hearstapps.com/hmg-prod/images/beautiful-smooth-haired-red-cat-lies-on-the-sofa-royalty-free-image-1678488026.jpg?crop=0.668xw:1.00xh;0.119xw,0&resize=1200:*" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="pb-1 mb-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat" viewBox="0 0 16 16">
+                    <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
+                  </svg>
+                  <div class="bodyIconsRight float-end">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                      <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                    </svg>
+                  </div>
+                </div>
+
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie, erat ac efficitur blandit, nibh risus cursus ante, vel consequat augue orci et est. Morbi consectetur urna a consectetur porttitor. Donec dignissim sapien sit amet ex imperdiet, at consequat nibh malesuada. Nullam accumsan. </p>
+              </div>
+            </div>
+            <div class="card8 mb-5">
+              <img  src="https://media.istockphoto.com/id/185304274/photo/kitten.webp?b=1&s=170667a&w=0&k=20&c=qR1683VktVqhf8XH_pFNriorQ1a33MshX293b9AjcPI=" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="pb-1 mb-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat" viewBox="0 0 16 16">
+                    <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
+                  </svg>
+                  <div class="bodyIconsRight float-end">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                      <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                    </svg>
+                  </div>
+                </div>
+
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie, erat ac efficitur blandit, nibh risus cursus ante, vel consequat augue orci et est. Morbi consectetur urna a consectetur porttitor. Donec dignissim sapien sit amet ex imperdiet, at consequat nibh malesuada. Nullam accumsan.
+
+                </p>
+              </div>
+            </div>
+            <div class="card9 mb-5">
+              <img  src="https://static.wixstatic.com/media/103d43_9ecc1086f64147b9afe8a9c3333b1a1a~mv2.jpg/v1/fill/w_640,h_620,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/103d43_9ecc1086f64147b9afe8a9c3333b1a1a~mv2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="pb-1 mb-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat" viewBox="0 0 16 16">
+                    <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
+                  </svg>
+                  <div class="bodyIconsRight float-end">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                      <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                    </svg>
+                  </div>
+                </div>
+
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie, erat ac efficitur blandit, nibh risus cursus ante, vel consequat augue orci et est. Morbi consectetur urna a consectetur porttitor. Donec dignissim sapien sit amet ex imperdiet, at consequat nibh malesuada. Nullam accumsan.
+
+                </p>
+              </div>
+            </div>
+
+
+
+
+
+          </div>
         </div>
-        <div class="col-4">
-            <img src="https://travel.home.sndimg.com/content/dam/images/travel/fullset/2012/07/29/1d/yosemite_ss_001.rend.hgtvcom.1280.960.suffix/1491582679260.jpeg" alt="">
+      </div>
         </div>
-        <div class="col-4">
-            <img src="https://travel.home.sndimg.com/content/dam/images/travel/fullset/2012/07/29/1d/yosemite_ss_001.rend.hgtvcom.1280.960.suffix/1491582679260.jpeg" alt="">
-        </div>
-          
-        </div>
-        <div class="row">
-          <div class="col-4">Pic1</div>
-          <div class="col-4">Pic2</div>
-          <div class="col-4">Pic3</div>
-        </div>
-        <div class="row">
-          <div class="col-4">Pic1</div>
-          <div class="col-4">Pic2</div>
-          <div class="col-4">Pic3</div>
+
         </div>
       </div>
       <div class="igFooter"></div>
-      <!-- </div> -->
-    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
